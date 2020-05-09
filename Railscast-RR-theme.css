@@ -1,6 +1,5 @@
 
 :root {
-  /* Primary fonts */
   --main-font: 'Inter', sans-serif;
   --main-font-color:#999;
   --main-font-size: 1.0em;
@@ -1712,8 +1711,7 @@ div.rm-block-text {
   display: flex;
   height: 13px;
   width: 13px;
-  /* margin-top: 3px; */
-  margin-top: var(--bullet-position); /*RR change: added variable for adjustment*/
+  margin-top: var(--bullet-position); 
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -1722,8 +1720,7 @@ div.rm-block-text {
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  /*background-color: #394b59;*/
-  background-color: var(--bullet); /*RR change: dark orange bullet*/
+  background-color: var(--bullet);
 }
 .version-bullet {
   background-color: #a7b6c2;
@@ -1790,8 +1787,7 @@ div.rm-block-text {
   background-color: #bfccd6;
 }
 .block-ref-count-button {
-  /* font-size: 0.9em; */
-  font-size: var(--ref-count-font-size); /*RR change: added variable*/
+  font-size: var(--ref-count-font-size); 
 }
 .rm-grey-text {
   color: #8a9ba8;
@@ -1827,11 +1823,6 @@ div.rm-block-text {
   text-align: left;
   text-shadow: none;
 }
-/* .tags-input:focus { */
-  /* box-shadow: 0 0 5px rgba(81, 203, 238, 1); */
-  /* border: 2px solid white; */
-  /* border-bottom-color: #448cca; */
-/* } */
 .tags-output {
   display: inline-block;
   margin-left: 4px;
@@ -1917,20 +1908,13 @@ font-size: 1.0em;
 }
 .noselect {
   -webkit-touch-callout: none;
-  /* iOS Safari */
   -webkit-user-select: none;
-  /* Safari */
   -khtml-user-select: none;
-  /* Konqueror HTML */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* Internet Explorer/Edge */
   user-select: none;
-  /* Non-prefixed version, currently */
 }
 
-/*RR change: Icon color*/
 .bp3-button .bp3-icon, 
 .bp3-button .bp3-icon-standard, 
 .bp3-button 
@@ -1964,7 +1948,6 @@ font-size: 1.0em;
   font-weight: 700;
 }
 .bp3-button:not([class*="bp3-intent-"]):hover {
-  /* background-color: rgba(167,182,194,0.3); */
   background-color: var(--icon-bg-hover);
   color: var(--icon-color-hover);
 }
@@ -1974,7 +1957,6 @@ font-size: 1.0em;
   color: var(--icon-color);
 }
 .bp3-button.bp3-small:not([class*="bp3-minimal"]):hover {
-  /* background-color: rgba(167,182,194,0.3); */
   background-color: var(--icon-bg-hover);
   color: var(--icon-color-hover);
 }
@@ -1986,21 +1968,15 @@ font-size: 1.0em;
 .bp3-input-group > .bp3-icon {
     color: var(--search-font-color);
 }
-
-/* Input Text Color */
 .bp3-input {
   color: var(--search-font-color);
 }
-
-/* Roam Search Box Field and Border */
 .bp3-input,
 .bp3-input[readonly]{ 
   background: var(--search-bg);
   box-shadow: inset 0 0 0 1px var(--search-outline);
   font-size: 0.85em;
 }
-
-/*RR change: additional text styles*/
 .roam-app strong {
   color: var(--strong) !important;
 }
@@ -2008,9 +1984,6 @@ font-size: 1.0em;
 .roam-app em {
   color: var(--emphasis);
 }
-
-/*RR change: Markdown Links */
-
 .roam-app a {
   color: var(--external-link-color);
 }
@@ -2035,8 +2008,6 @@ hr {
   border: 0;
   border-top: 1px solid var(--hr);
 }
-
-/*RR change: Sidebar modifications*/
 #right-sidebar {
   background-color: var(--right-sidebar-bg) !important;
 }
@@ -2044,8 +2015,6 @@ hr {
 #all-pages-search div {
   font-family: var(--main-font);
 }
-
-/* Context Menus */
 .bp3-popover .bp3-popover-content,
 .bp3-menu {
   background: var(--popover-bg);
@@ -2069,8 +2038,6 @@ hr {
   color: var(--search-font-color);
   background-color: var(--select-bg);  
 }
-
-/* Slash Popup */
 div.bp3-elevation-3 {
   /* color: #1775db; */
   color: var(--search-font-color);
@@ -2087,11 +2054,8 @@ div.bp3-elevation-3 {
 .bp3-elevation-3 .dont-unfocus-block[style*="background-color: rgb(213, 218, 223);"],
 .bp3-popover-content .rm-menu-item[style*="background-color: rgb(213, 218, 223);"]  {
   background-color: #4c4c4c !important;    
-/*filter: invert(100%); /*RR change: Inverts the colors of the / and link search menus*/
-
 }
 
-/*RR change: generic class for a transparent background*/
 .trans {
   background-color: transparent;
 }
@@ -2100,7 +2064,6 @@ div.bp3-elevation-3 {
   margin-bottom: 2em;
 }
 
-/*RR change: Breadcrumb navigation background color override*/
 .parent-path-wrapper div div {
   background-color: transparent !important;
 }
@@ -2131,16 +2094,10 @@ select {
   border-color: var(--search-outline);
 }
 
-/*RR change: This section contains a series of very specific overrides that are extremely fragile and will probably break with any minor update*/
-
-/*RR change: Super fragile override for Block embeds to change the background color and font-size*/
-
 div[style^='overflow: hidden; margin-left: -8px; background-color: rgb(235, 241, 245); margin-top: -4px;']{
   background-color: var(--block-embed-bg) !important;
   font-size: var(--block-embed-font-size);
 }
-
-/*RR change: Very fragile override for alias styes, will probably break*/
 span[style^='background-color: rgb(235, 241, 245); border-radius: 4px; cursor: alias; color: rgb(245, 86, 86); padding: 4px 6px;'] {
   background-color: var(--alias-bg) !important;
   border-radius: 0 !important;
@@ -2148,9 +2105,6 @@ span[style^='background-color: rgb(235, 241, 245); border-radius: 4px; cursor: a
   color: var(--alias-font-color) !important;
   padding: 0 !important;
 }
-
-/*RR change: Very fragile override for the filter icon backgroung when a filter is applied*/
-/* these might already be broken */
 span[style*='background-color: red;'] {
   background-color: var(--filter-bg-subtract) !important;
 }
@@ -2158,7 +2112,6 @@ span[style*='background-color: green;'] {
   background-color: var(--filter-bg-add) !important;
 }
 
-/*RR change: Very fragile overrides for a page embed*/
 .roam-block div[style*="background-color: rgb(235, 241, 245);" ] {
   background-color: var(--reference-item-bg) !important;
   font-size: 0.8em;
@@ -2206,7 +2159,6 @@ svg .rm-page-ref-brackets {
   color: #a7b6c2;
 }
 
-/*RR change: dialog window styles*/
 .bp3-dialog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2245,10 +2197,6 @@ button[style*="background-color: rgba(72, 176, 240, 0.5);"]{
   background-color: var(--reference-item-bg) !important;
   border: 1px solid var(--icon-color) !important;
 }
-
-/*RR change: Codemirror adjustments*/
-
-/* RR Change: single backtick code snippets */
 code { 
     background-color: var(--code-bg);
     border-radius: 3px;
@@ -2257,44 +2205,26 @@ code {
     padding: 3px 4px 3px 4px;
     font-family: var(--code-font);
 }
-
-
-/*
-
-    Name:       Railscasts
-    Author:     Ryan Bates (http://railscasts.com)
-
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
-
 div.CodeMirror .CodeMirror-code pre {
   font-family: var(--code-font);
   line-height: 1.5em;
   font-size: 1.1em;
 }
-
-/*<!--activeline-->*/
 .CodeMirror-activeline-background { background: #253540; }
-
 .CodeMirror {background: var(--code-bg); color: #f4f1ed; font-size: 0.85em;}
 div.CodeMirror-selected {background: #4d516d !important;}
 .CodeMirror-gutters {background: #2b2b2b; border-right: 1px solid #333;}
 .CodeMirror-linenumber {color: var(--page-link-color);}
 .CodeMirror-cursor {border-left: 1px solid #d4cfc9 !important;}
-
 span.cm-comment {color: #bc9458;}
 span.cm-atom {color: #b6b3eb;}
 span.cm-number {color: #b6b3eb;}
 .cm-s-default .cm-number {color: #b6b3eb;}
-
 span.cm-property,  span.cm-attribute {color: #a5c261;}
 span.cm-keyword {color: #da4939;}
 .cm-s-default .cm-keyword {color: #da4939;}
 span.cm-string {color: #ffc66d;}
 .cm-s-default .cm-string {color: #ffc66d;}
-
 span.cm-variable-2 {color: #a5c261;}
 span.cm-variable {color: #6d9cbe;}
 span.cm-def {color: #cc7833;}
@@ -2302,15 +2232,9 @@ span.cm-error {/*background: #da4939;*/ color: #da4939;}
 span.cm-bracket {color: #f4f1ed;}
 span.cm-tag {color: #da4939;}
 span.cm-link {color: #b6b3eb;}
-
 .cm-s-default .cm-atom { color: #2983bb;}
-
-/* .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;} */
 .CodeMirror-matchingbracket { outline:1px solid #ff9c3a; color:#fff !important; }
 .CodeMirror-activeline-background { background: #5a5acc; }
-
 .CodeMirror pre {background: #2b2b2b;}
-
-
 .CodeMirror-lines {background: #2b2b2b;}
 .CodeMirror-activeline pre {background: #253540; /* SPM ADDED */}
