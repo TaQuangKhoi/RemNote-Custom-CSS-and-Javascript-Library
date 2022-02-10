@@ -5,7 +5,8 @@ body,
 .document-header-top-bar,
 .mosaic-window-toolbar,
 .document--narrow,
-#document-sidebar {
+#document-sidebar,
+.navigation-bar {
 	background: var(--my-background-color) !important;
 }
 .mosaic-drop-target { /* Fix focus mode */
