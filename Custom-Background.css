@@ -6,18 +6,18 @@ body,
 .mosaic-window-toolbar,
 .document--narrow,
 #document-sidebar {
-	background: #f7f5f3 !important;
+	background: var(--my-background-color) !important;
 }
 .mosaic-drop-target { /* Fix focus mode */
-background: #f7f5f3;
+background: var(--my-background-color);
 }
 /* Fix scroll bar */
 ::-webkit-scrollbar-track {
-        background: #f7f5f3;
+        background: var(--my-background-color);
 }
 ::-webkit-scrollbar-thumb {
-	border: 4px solid #f7f5f3;
+	border: 4px solid var(--my-background-color);
 }
 ::-webkit-scrollbar {
-    background-color: #f7f5f3 ;
+    background-color: var(--my-background-color);
 }
