@@ -1,0 +1,5 @@
+/* No strikethrough */
+.rem-container--todo-finished {
+    color: #8c8c8c;
+    text-decoration: none;
+}
