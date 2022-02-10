@@ -1,9 +1,9 @@
-
-/* Put code between /* */ for disable any part you do not need */
-
-/* Background color of Portal */
+/* Normal */
 .portal-tree-node-box {
 	background-color: #ddffff;
+	/*padding: 15px 20px;*/
+    border-radius: 12px;
+    border-bottom: 1px solid #B3C3FF!important;
 }
 
 /* Size of Vertical Line */
@@ -11,14 +11,15 @@
 	width: 5px!important;
 }
 
-/* Focused Portal */
+/* When you put cursor on content of portal */
 .portal-tree-node-box--focused {
 	border-left: 5px solid #B0CCCC!important;
 	background-color: #B8DFFC;
 }
 
-/* Selected Portal */
+/* When you selected the portal */
 .portal-tree-node-box--selected {
 	border-left: 6px solid orange!important;
 	background-color: #bfff00;
+	border-bottom: 2px solid orange!important;
 }
