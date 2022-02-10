@@ -1,1 +1,18 @@
 /* Request: https://forum.remnote.io/t/help-change-background-color-with-windowed-panes/9735 */
+body, .tile__document, .document-header-top-bar, .mosaic-window-toolbar, .document--narrow, #document-sidebar {
+	background: #f7f5f3 !important;
+}
+
+.mosaic-drop-target { /* Fix focus mode */
+background: #f7f5f3;
+}
+/* Fix scroll bar */
+::-webkit-scrollbar-track {
+        background: #f7f5f3;
+}
+::-webkit-scrollbar-thumb {
+	border: 4px solid #f7f5f3;
+}
+::-webkit-scrollbar {
+    background-color: #f7f5f3 ;
+}
