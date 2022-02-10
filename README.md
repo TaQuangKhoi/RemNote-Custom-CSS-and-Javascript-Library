@@ -6,8 +6,8 @@ Go to [browneyedsoul's RemNote-CSS-Library](https://github.com/browneyedsoul/Rem
 ```
 # Custom Background
 ```css
+@import url("https://taquangkhoi.github.io/RemNote-CSS-Library-by-Keios/Custom-Background.css");
 :root {
     --my-background-color: #f7f5f3; /* Use your favorite color */
 }
-@import url("https://taquangkhoi.github.io/RemNote-CSS-Library-by-Keios/Custom-Background.css");
 ```
