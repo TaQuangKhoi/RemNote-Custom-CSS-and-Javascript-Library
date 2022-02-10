@@ -1,0 +1,6 @@
+/* Request: https://forum.remnote.io/t/enabling-slashed-zero-for-the-default-font-inter-through-css/9763 */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css");
+.rem-text { 
+    font-variant-numeric: slashed-zero;
+}
