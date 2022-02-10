@@ -1,1 +1,1 @@
-# RemNote-Custom-CSS-by-Keios
+See at https://github.com/TaQuangKhoi/RemNote-CSS-Library
