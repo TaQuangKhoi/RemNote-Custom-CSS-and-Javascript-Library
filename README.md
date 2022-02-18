@@ -5,7 +5,7 @@ Go to [browneyedsoul's RemNote-CSS-Library](https://github.com/browneyedsoul/Rem
 <summary>Custom Todo</summary>
 
 ```css
-@import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom-Todo.css");
+@import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom%20CSS/Custom-Todo.css");
 ```
 </details>
 
@@ -13,7 +13,7 @@ Go to [browneyedsoul's RemNote-CSS-Library](https://github.com/browneyedsoul/Rem
 <summary>Custom Background</summary>
     
 ```css
-@import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom-Background.css");
+@import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom%20CSS/Custom-Background.css");
 :root {
     --my-background-color: #f7f5f3; /* Use your favorite color */
 }
