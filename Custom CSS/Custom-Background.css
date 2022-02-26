@@ -10,11 +10,11 @@ body,
 	background: var(--my-background-color) !important;
 }
 .mosaic-drop-target { /* Fix focus mode */
-background: var(--my-background-color);
+    background: var(--my-background-color);
 }
 /* Fix scroll bar */
 ::-webkit-scrollbar-track {
-        background: var(--my-background-color);
+    background: var(--my-background-color);
 }
 ::-webkit-scrollbar-thumb {
 	border: 4px solid var(--my-background-color);
