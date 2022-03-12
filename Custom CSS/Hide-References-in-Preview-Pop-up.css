@@ -1,0 +1,20 @@
+/* New code for RemNote 1.7 */
+
+#document-hover-preview__popup .tree-node--automatic-search-portal-header,
+#document-hover-preview__popup .portal-tree-node-box--no-margin-left,
+#document-hover-preview__popup .portal-tree-node-box--enable-buttons,
+#document-hover-preview__popup .hierarchy-editor__search-portal-section  {
+	display: none;
+}
+
+/*
+Before 1.7 (delete it after some commits)
+#document-hover-preview__popup .portal-tree-node-box .portal-tree-transient-node-box,
+#document-hover-preview__popup .hierarchy-editor__search-portal-section,
+#document-hover-preview__popup #show-embedded-search-button {
+	display: none;
+}
+*/
+
+/* #document-hover-preview__popup .portal-tree-transient-node-box, 
+#document-hover-preview__popup #hierarchy-editor__search-portal */
