@@ -3,10 +3,11 @@ Go to [browneyedsoul's RemNote-CSS-Library](https://github.com/browneyedsoul/Rem
 # Custom CSS
 <details>
 <summary>Custom Todo</summary>
-
+    
 ```css
 @import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom%20CSS/Custom-Todo.css");
 ```
+
 </details>
 
 <details>
@@ -18,6 +19,15 @@ Go to [browneyedsoul's RemNote-CSS-Library](https://github.com/browneyedsoul/Rem
     --my-background-color: #f7f5f3; /* Use your favorite color */
 }
 ```
+</details>
+
+<details>
+<summary>Hide References in Preview Pop up</summary>
+
+```css
+@import url("https://taquangkhoi.github.io/RemNote-CSS-and-Javascrip-Library-by-Keios/Custom%20CSS/Hide-References-in-Preview-Pop-up.css");
+```
+
 </details>
 
 # Custom Javascript
