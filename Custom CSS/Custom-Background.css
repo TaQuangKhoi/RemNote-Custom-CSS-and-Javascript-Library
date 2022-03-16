@@ -2,6 +2,11 @@
 
 body,
 .tile__document,
+.popup-menu,
+.react-datepicker__header,
+.rn-clr-background-elevation-10, /*Account menu*/
+.rn-clr-background-elevation-15, /*Omnibar*/
+.settings-page__sidebar,
 .document-header-top-bar,
 .mosaic-window-toolbar,
 .document--narrow,
