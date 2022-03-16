@@ -22,6 +22,3 @@ body,
 ::-webkit-scrollbar-thumb {
 	border: 4px solid var(--my-background-color);
 }
-::-webkit-scrollbar {
-    background-color: var(--my-background-color);
-}
