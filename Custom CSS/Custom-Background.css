@@ -11,7 +11,7 @@ body,
 .content__page {
 	background: var(--my-background-color) !important;
 }
-.mosaic-drop-target { /* Fix focus mode */
+.rn-clr-background-primary { /* Fix focus mode - Background of Sidebar by Dante Gaxiola */
     background: var(--my-background-color);
 }
 
