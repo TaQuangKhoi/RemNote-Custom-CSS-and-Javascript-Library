@@ -13,11 +13,10 @@ body,
 #document-sidebar,
 .navigation-bar,
 .bg-white,
-.content__page {
+.content__page,
+.rn-clr-background-primary /* Fix focus mode - Background of Sidebar by Dante Gaxiola */
+{
 	background: var(--my-background-color) !important;
-}
-.rn-clr-background-primary { /* Fix focus mode - Background of Sidebar by Dante Gaxiola */
-    background: var(--my-background-color);
 }
 
 /* Fix scroll bar */
