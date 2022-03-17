@@ -1,0 +1,4 @@
+/* RemNote 1.6.7 and Below */
+.rem-hierarchy-bottom {
+	height: 20px!important; /* old value: 100px */
+}
