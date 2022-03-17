@@ -6,14 +6,15 @@ body,
 .react-datepicker__header,
 .rn-clr-background-elevation-10, /*Account menu*/
 .rn-clr-background-elevation-15, /*Omnibar*/
-.settings-page__sidebar,
 .document-header-top-bar,
+.settings-page__sidebar,
 .mosaic-window-toolbar,
-.document--narrow,
 #document-sidebar,
+.document--narrow,
 .navigation-bar,
-.bg-white,
+.mosaic-preview, /* Top Bar of Window Panes */
 .content__page,
+.bg-white,
 .rn-clr-background-primary /* Fix focus mode - Background of Sidebar by Dante Gaxiola */
 {
 	background: var(--my-background-color) !important;
