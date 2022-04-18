@@ -2,3 +2,7 @@
 .rn-add-rem-button--bottom {
 	height: 2rem !important;
 }
+/* Change height of add rem button*/
+.rn-add-rem-button {
+	height: 5rem;
+}
