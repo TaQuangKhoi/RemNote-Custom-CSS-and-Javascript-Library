@@ -1,0 +1,4 @@
+#document-sidebar > div:nth-child(1) > div:nth-child(3) > div {
+	display: none !important;
+}
+/* https://forum.remnote.io/t/can-we-remove-daily-docs-from-the-sidebar/9982/2 */
