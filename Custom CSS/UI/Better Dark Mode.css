@@ -1,0 +1,13 @@
+/* Origin Rem IDs: ZFheu3kcrv3crMk8R, 4GRNAh9yjNp8S8xpf */
+
+.dark-mode {
+    filter: hue-rotate(180deg) invert(1)!important;
+}
+
+/*.popup-menu {
+background-color: white!important;
+filter: hue-rotate(180deg) invert(1);
+}*/
+.dark-mode #document-sidebar__account-capsule__text {
+    filter: hue-rotate(180deg) invert(1)!important;
+}
